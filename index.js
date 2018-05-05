@@ -28,9 +28,9 @@ if(element===findFn)result=findFn;
 })
    return findFn
   for (var i = 0; i < array.length; i++) {
-    if (array[i]===findFn) {
+    if (array[i]==findFn) {
       return findFn
     }
   }
-  return findFn
+  return result
 }
