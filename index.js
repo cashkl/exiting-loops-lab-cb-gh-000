@@ -4,7 +4,7 @@ function breakOut(array,changeValue,stopValue) {
     if (array[i]===stopValue) {
       break;
     }
-    element=changeValue
+    array[i]=changeValue
   }
 }
 
@@ -14,7 +14,7 @@ function keepGoing(array,changeValue,stopValue) {
     if (array[i]===stopValue) {
       break;
     }
-    element=changeValue
+    array[i]=changeValue
   }
 }
 
