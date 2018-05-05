@@ -1,20 +1,28 @@
 function breakOut(array,changeValue,stopValue) {
-  array.foreach(element => {
-    if(stopValue===element) {break}
-    element=changeValue;
-  })
+  
+  for (var i = 0; i < array.length; i++) {
+    if (array[i]===stopValue) {
+      break;
+    }
+    element=changeValue
+  }
 }
 
 
 function keepGoing(array,changeValue,stopValue) {
-  array.foreach(element => {
-    if(stopValue===element){ continue}
-  })
-  element=changeValue;
+  for (var i = 0; i < array.length; i++) {
+    if (array[i]===stopValue) {
+      break;
+    }
+    element=changeValue
+  }
 }
 
 function findBy(array,findFn) {
-  array.foreach(element => {
-    if(element===findFn) return element
-  })
+  for (var i = 0; i < array.length; i++) {
+    if (array[i]===findFn) {
+      return array[i]
+    }
+  }
+  return null
 }
