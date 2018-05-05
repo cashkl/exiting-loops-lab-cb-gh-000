@@ -24,7 +24,7 @@ function findBy(array,findFn) {
 var result
 
 array.foreach(element => {
-if(element===findFn)result=findFn;  
+if(element===findFn)result=findFn;
 })
    return result
   for (var i = 0; i < array.length; i++) {
@@ -32,5 +32,5 @@ if(element===findFn)result=findFn;
       return findFn
     }
   }
-  return  
+  return
 }
