@@ -21,10 +21,16 @@ function keepGoing(array,changeValue,stopValue) {
 }
 
 function findBy(array,findFn) {
+var result
+
+array.foreach(element => {
+if(element===findFn)result=findFn;  
+})
+   return result
   for (var i = 0; i < array.length; i++) {
     if (array[i]===findFn) {
       return findFn
     }
   }
-  return
+  return  
 }
