@@ -8,9 +8,9 @@ function breakOut(array,changeValue,stopValue) {
 
 function keepGoing(array,changeValue,stopValue) {
   array.foreach(element => {
-    if(stopValue===element) continue;
-    element=changeValue;
+    if(stopValue===element){ continue}
   })
+  element=changeValue;
 }
 
 function findBy(array,findFn) {
