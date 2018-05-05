@@ -8,7 +8,7 @@ function breakOut(array,changeValue,stopValue) {
 
 function keepGoing(array,changeValue,stopValue) {
   array.foreach(element => {
-    if(stopValu===element) continue;
+    if(stopValue===element) continue;
     element=changeValue;
   })
 }
