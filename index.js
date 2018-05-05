@@ -23,7 +23,7 @@ function keepGoing(array,changeValue,stopValue) {
 function findBy(array,findFn) {
 var result
 
-array.foreach(element => {
+array.forEach(element => {
 if(element===findFn)result=findFn;
 })
    return result
