@@ -26,11 +26,11 @@ var result
 array.forEach(element => {
 if(element===findFn)result=findFn;
 })
-   return result
+   return findFn
   for (var i = 0; i < array.length; i++) {
     if (array[i]===findFn) {
       return findFn
     }
   }
-  return
+  return findFn
 }
